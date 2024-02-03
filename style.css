@@ -42,7 +42,7 @@ body {
 }
 .home {
   height: 75vh;
-    background:blue; /*url(IMG_4638.jpeg) repeat-x; */
+    background:url(IMG_4638.jpeg) repeat-x; 
   background-size: 100%;
   background-position: center;
   display: flex; 
