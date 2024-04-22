@@ -145,7 +145,7 @@ body {
   transition: 0.5s;
 }
 .home-sci a:hover {
-  color: #081b29;
+  color: #081b28;
 }
 .home-sci a::before {
   content: "";
