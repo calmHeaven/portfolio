@@ -83,12 +83,13 @@ nav .logo {
 }
 nav .logo:hover {
   opacity: 1;
+  transition: 0.4s ease;
   transform: scale(1.1);
 }
 @media screen and (max-width: 150px) {
   .home {
-    height: 75vh;
-    background: url(IMG_4638.jpeg) repeat-x;
+    height: 700fvh;
+    background: url(./IMG_4638.jpeg) repeat-x;
     background-size: 100%;
     background-position: center;
     display: flex;
@@ -101,8 +102,7 @@ nav .logo:hover {
   }
 }
 .home-content {
-    max-width: 600px;
-
+  max-width: 600px;
 }
 .home-content h1 {
   font-size: 56px;
@@ -111,13 +111,13 @@ nav .logo:hover {
   justify-content: center;
   line-height: 1.2;
   padding-left: 50px;
-
 }
 .home-content h3 {
   font-size: 32px;
   font-weight: 700;
   margin-right: 60px;
-  color: #00abf0;  padding-left: 50px;
+  color: #00abf0;
+  padding-left: 50px;
   padding-left: 50px;
 }
 .home-content p {
@@ -133,7 +133,7 @@ nav .logo:hover {
 }
 .btn-box a {
   --glow-color: rgb(176, 194, 255);
-  --glow-spread-co0lor: rgba(123, 171, 255, 0.781);
+  --glow-spread-color: rgba(123, 171, 255, 0.781);
   --enhanced-glow-color: rgb(206, 218, 255);
   --btn-color: #081b29;
 
@@ -159,6 +159,8 @@ nav .logo:hover {
 }
 .btn-box a:nth-child(2)::before {
   background-color: #03e9f4;
+    border-radius: 25%;
+
   box-shadow: 0 0 10px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   transition: 0.9s ease-in-out;
 }
@@ -175,6 +177,8 @@ nav .logo:hover {
   background: #081b29;
   z-index: -1;
   transition: 0.9s;
+    border-radius: 25%;
+
   box-shadow: 0 0 10px #03e9f4, 0 0 50px #03e9f4, 0 0 50px #03e9f4;
 }
 .btn-box a:hover::before {
@@ -207,6 +211,7 @@ nav .logo:hover {
 .home-sci a:hover {
   color: #081b29;
   padding-left: 0px;
+  border-radius: 25%;
   background-color: #03e9f4;
   box-shadow: 0 0 10px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   transition: 0.4s ease-in-out;
@@ -217,6 +222,7 @@ nav .logo:hover {
   top: 0;
   left: 0;
   width: 0%;
+  border-radius: 25%;
   height: 100%;
   background: #00abf0;
   z-index: -1;
@@ -224,4 +230,5 @@ nav .logo:hover {
 }
 .home-sci a:hover::before {
   width: 100%;
+  border-radius: 25%;
 }
